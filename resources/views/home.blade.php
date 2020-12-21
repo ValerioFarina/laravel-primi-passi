@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>
-            Hello
+            Hello {{ $first_name }} {{ $last_name }}
         </h1>
     </body>
 </html>
