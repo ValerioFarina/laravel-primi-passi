@@ -5,8 +5,8 @@
         <title>Error 404</title>
     </head>
     <body>
-        <h1>
+        <h2>
             Page not found
-        </h1>
+        </h2>
     </body>
 </html>

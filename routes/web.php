@@ -24,11 +24,7 @@ Route::get('/', function () {
 Route::get('/chi-siamo', function () {
     $data = [
         'list' => [
-            'item1',
-            'item2',
-            'item3',
-            'item4',
-            'item5'
+            
         ]
     ];
     return view('about', $data);

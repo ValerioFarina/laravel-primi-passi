@@ -3,17 +3,20 @@
     <head>
         <meta charset="utf-8">
         <title>About us</title>
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
         <ul>
             @forelse ($list as $item)
                 <li>
-                    {{ $item }}
+                    - {{ $item }}
                 </li>
             @empty
-                <h1>
-                    No items available
-                </h1>
+                <li>
+                    <h2>
+                        No items available
+                    </h2>
+                </li>
             @endforelse
         </ul>
     </body>
