@@ -6,11 +6,15 @@
     </head>
     <body>
         <ul>
-            @foreach ($list as $item)
+            @forelse ($list as $item)
                 <li>
                     {{ $item }}
                 </li>
-            @endforeach
+            @empty
+                <h1>
+                    No items available
+                </h1>
+            @endforelse
         </ul>
     </body>
 </html>
