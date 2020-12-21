@@ -9,5 +9,9 @@
         <h1>
             Hello {{ $first_name }} {{ $last_name }}
         </h1>
+
+        <a href="{{ route('about') }}">
+            About us
+        </a>
     </body>
 </html>
